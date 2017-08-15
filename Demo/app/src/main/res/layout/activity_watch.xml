@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="tv.shouyin.showing.open.demo.live.WatchActivity">
+
+    <tv.shouyin.showing.open.sdk.widget.SyPlayerView
+        android:id="@+id/sy_player_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"/>
+
+    <tv.shouyin.showing.open.sdk.widget.SyChatRoomView
+        android:id="@+id/sy_chat_room_view"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="left|bottom"
+        android:layout_marginRight="120dp"
+        android:layout_marginBottom="20dp" />
+
+</FrameLayout>
